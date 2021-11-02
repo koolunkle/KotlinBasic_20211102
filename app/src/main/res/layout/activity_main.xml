@@ -15,4 +15,10 @@
         android:text="Touch me! (로그찍기)"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기" />
+
 </LinearLayout>
