@@ -28,16 +28,19 @@
         android:text="토스트 띄우기2" />
 
     <EditText
+        android:id="@+id/edtContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="아무 말이나 입력" />
 
     <Button
+        android:id="@+id/btnCopyText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="위의 문장을 옮겨적기" />
 
     <TextView
+        android:id="@+id/txtCopytResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="입력한 문장이 복사될 자리"
