@@ -31,5 +31,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnToast2.setOnClickListener {
+            Toast.makeText(this, "두번째 버튼이 눌렸습니다.", Toast.LENGTH_SHORT).show()
+        }
+
     }
 }

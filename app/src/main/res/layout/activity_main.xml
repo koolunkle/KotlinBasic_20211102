@@ -21,4 +21,11 @@
         android:layout_height="wrap_content"
         android:text="토스트 띄우기" />
 
+    <Button
+        android:id="@+id/btnToast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기2" />
+
+
 </LinearLayout>
