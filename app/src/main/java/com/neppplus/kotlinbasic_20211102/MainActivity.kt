@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
 //            로그를 찍어보기
             Log.d("메인화면", "로그찍기 버튼이 눌림")
             Log.e("메인화면", "Log.e로 찍어보기")
-
         }
 
         btnToast.setOnClickListener {
@@ -28,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
 //            토스트 띄우기
             Toast.makeText(this, "토스트 버튼이 눌렸습니다.", Toast.LENGTH_SHORT).show()
+
         }
 
         btnToast2.setOnClickListener {
@@ -41,6 +41,13 @@ class MainActivity : AppCompatActivity() {
 
 //            2. 텍스트뷰에 알아낸 내용을 세팅. => 메모해둔 내용을 => 텍스트뷰의 text 속성에 대입.
             txtCopyResult.text =  inputContent
+        }
+
+        btnContentToast.setOnClickListener {
+            val inputContent = edtContent.text.toString()
+
+//            입력된 내용을 -> 토스트로 출력
+            Toast.makeText(this, inputContent, Toast.LENGTH_SHORT).show()
         }
 
     }

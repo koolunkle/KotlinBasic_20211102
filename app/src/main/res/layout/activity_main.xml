@@ -47,4 +47,11 @@
         android:gravity="center"/>
 
 
+    <Button
+        android:id="@+id/btnContentToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="입력한 내용을 토스트로 띄우기" />
+
+
 </LinearLayout>
